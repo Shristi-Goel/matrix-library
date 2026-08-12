@@ -144,12 +144,18 @@ class Matrix:
                 for j in range(self.cols):
                     element=self.data[0][j]*(self.minor(0,j))*(-1)**j
                     result+=element
-        print("Determinant: ",result)
-                return result
+            print("Determinant: ",result)
+            return result
                     
             
         else:
             print("Determinant is only be find out of square matrix")  
+
+  
+
+
+
+
 
   
 
